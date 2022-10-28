@@ -1,0 +1,29 @@
+name: RNAseq2func_env 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - snakemake
+  - graphviz
+# conda-forge channel installs
+ # - scipy
+ # - seaborn
+ # - pandas
+ # - numpy
+ # - matplotlib-base
+# bioconda channel installs
+  - fastqc
+  - samtools
+  - star
+  - picard
+  - trim-galore
+  - samstats
+  - rsem
+  - subread
+  - multiqc
+  - bwa
+  - qualimap
+  - bbmap
+  - rna-seqc=1.1.8
