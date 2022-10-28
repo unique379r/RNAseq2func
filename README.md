@@ -40,36 +40,51 @@ A comprehensive RNA analysis from sequence to function and pathway reporting.
   - bbmap=>39.01
   - rna-seqc=1.1.8
 
-`git clone git@github.com:unique379r/RNAseq2func.git
-cd RNAseq2func 
-bash setup/RNAseq2func_setup.sh`
+```
+git clone git@github.com:unique379r/RNAseq2func.git
+cd RNAseq2fun
+bash setup/RNAseq2func_setup.sh
+```
+
 
 ### 1.3 Activate the environment
 
-`conda activate RNAseq2func_env`
+```
+conda activate RNAseq2func_env
+```
+
 
 ## 1.4 Run the pipeline (RNAseq2func)
 
-`Snamkemake / Python wrapper`
+```
+Snamkemake / Python wrapper
+```
 
 ### 1.5 deactivate the environment
 
-`Conda deactivate`
+```
+Conda deactivate
+```
 
 ## Lazy mode
 
 ### Install a Docker if not already installed.
 
-`Download and install docker https://docs.docker.com/engine/install/`
+```
+Download and install docker https://docs.docker.com/engine/install/
+```
 
 ### Build a docker container 
 
-`docker container run --name=RNAseq2func -it unique379r/RNAseq2func`
+```
+docker container run --name=RNAseq2func -it unique379r/RNAseq2func
+```
 
 ### Run RNAseq2func
 
-`Snamkemake / Python wrapper`
-
+```
+Snamkemake / Python wrapper
+```
 
 ## Tutorial
 
