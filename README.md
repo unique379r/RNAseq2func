@@ -60,7 +60,7 @@ conda activate RNAseq2func_env
 Snamkemake / Python wrapper
 ```
 
-### 1.5 deactivate the environment
+### 1.5 Dactivate the environment
 
 ```
 Conda deactivate
